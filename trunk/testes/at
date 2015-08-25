@@ -1,0 +1,1137 @@
+
+*****************
+** Tabela Hash **
+*****************
+
+< VARIAVEL >
+Identificador: a
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: integer
+Deslocamento: 0
+< /VARIAVEL >
+
+\_<PROGRAMA>
+ |\_program
+ |\_<IDENTIFICADOR>
+ |  \_tc01
+ |\_(
+ |\_)
+ |\_;
+ |\_<BLOCO>
+ | |\_<PARTE_DECLARACOES_VARIAVEIS>
+ | | |\_var
+ | | |\_<DECLARACAO_VARIAVEIS>
+ | | | |\_<LISTA_IDENTIFICADORES>
+ | | | |  \_<IDENTIFICADOR>
+ | | | |    \_a
+ | | | |\_:
+ | | |  \_<TIPO>
+ | | |    \_<IDENTIFICADOR>
+ | | |      \_integer
+ | |  \_;
+ |  \_<COMANDO_COMPOSTO>
+ |   |\_begin
+ |   |\_<COMANDO>
+ |   |  \_<COMANDO_SEM_ROTULO>
+ |   |    \_<COMANDO_LEITURA>
+ |   |     |\_read
+ |   |     |\_(
+ |   |     |\_<LISTA_IDENTIFICADORES>
+ |   |     |  \_<IDENTIFICADOR>
+ |   |     |    \_a
+ |   |      \_)
+ |   |\_;
+ |   |\_<COMANDO>
+ |   |  \_<COMANDO_SEM_ROTULO>
+ |   |    \_<COMANDO_ESCRITA>
+ |   |     |\_write
+ |   |     |\_(
+ |   |     |\_<EXPRESSAO>
+ |   |     |  \_<EXPRESSAO_SIMPLES>
+ |   |     |    \_<TERMO>
+ |   |     |      \_<FATOR>
+ |   |     |        \_<VARIAVEL>
+ |   |     |          \_<IDENTIFICADOR>
+ |   |     |            \_a
+ |   |      \_)
+ |   |\_;
+ |   |\_<COMANDO>
+ |   |  \_<COMANDO_SEM_ROTULO>
+ |    \_end
+  \_.
+
+*****************
+** Tabela Hash **
+*****************
+
+< VARIAVEL >
+Identificador: L
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: boolean
+Deslocamento: 0
+< /VARIAVEL >
+
+< VARIAVEL >
+Identificador: a
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: integer
+Deslocamento: 0
+< /VARIAVEL >
+
+< VARIAVEL >
+Identificador: b
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: integer
+Deslocamento: 1
+< /VARIAVEL >
+
+< VARIAVEL >
+Identificador: c
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: integer
+Deslocamento: 2
+< /VARIAVEL >
+
+< VARIAVEL >
+Identificador: d
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: boolean
+Deslocamento: 0
+< /VARIAVEL >
+
+< VARIAVEL >
+Identificador: e
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: boolean
+Deslocamento: 1
+< /VARIAVEL >
+
+< VARIAVEL >
+Identificador: f
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: boolean
+Deslocamento: 2
+< /VARIAVEL >
+
+< VARIAVEL >
+Identificador: g
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: integer
+Deslocamento: 0
+< /VARIAVEL >
+
+< VARIAVEL >
+Identificador: h
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: integer
+Deslocamento: 1
+< /VARIAVEL >
+
+< VARIAVEL >
+Identificador: i
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: boolean
+Deslocamento: 0
+< /VARIAVEL >
+
+< VARIAVEL >
+Identificador: j
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: boolean
+Deslocamento: 1
+< /VARIAVEL >
+
+< VARIAVEL >
+Identificador: k
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: integer
+Deslocamento: 0
+< /VARIAVEL >
+
+\_<PROGRAMA>
+ |\_program
+ |\_<IDENTIFICADOR>
+ |  \_tc02
+ |\_(
+ |\_)
+ |\_;
+ |\_<BLOCO>
+ | |\_<PARTE_DECLARACOES_VARIAVEIS>
+ | | |\_var
+ | | |\_<DECLARACAO_VARIAVEIS>
+ | | | |\_<LISTA_IDENTIFICADORES>
+ | | | | |\_<IDENTIFICADOR>
+ | | | | |  \_a
+ | | | | |\_,
+ | | | | |\_<IDENTIFICADOR>
+ | | | | |  \_b
+ | | | | |\_,
+ | | | |  \_<IDENTIFICADOR>
+ | | | |    \_c
+ | | | |\_:
+ | | |  \_<TIPO>
+ | | |    \_<IDENTIFICADOR>
+ | | |      \_integer
+ | | |\_;
+ | | |\_<DECLARACAO_VARIAVEIS>
+ | | | |\_<LISTA_IDENTIFICADORES>
+ | | | | |\_<IDENTIFICADOR>
+ | | | | |  \_d
+ | | | | |\_,
+ | | | | |\_<IDENTIFICADOR>
+ | | | | |  \_e
+ | | | | |\_,
+ | | | |  \_<IDENTIFICADOR>
+ | | | |    \_f
+ | | | |\_:
+ | | |  \_<TIPO>
+ | | |    \_<IDENTIFICADOR>
+ | | |      \_boolean
+ | | |\_;
+ | | |\_<DECLARACAO_VARIAVEIS>
+ | | | |\_<LISTA_IDENTIFICADORES>
+ | | | | |\_<IDENTIFICADOR>
+ | | | | |  \_g
+ | | | | |\_,
+ | | | |  \_<IDENTIFICADOR>
+ | | | |    \_h
+ | | | |\_:
+ | | |  \_<TIPO>
+ | | |    \_<IDENTIFICADOR>
+ | | |      \_integer
+ | | |\_;
+ | | |\_<DECLARACAO_VARIAVEIS>
+ | | | |\_<LISTA_IDENTIFICADORES>
+ | | | | |\_<IDENTIFICADOR>
+ | | | | |  \_i
+ | | | | |\_,
+ | | | |  \_<IDENTIFICADOR>
+ | | | |    \_j
+ | | | |\_:
+ | | |  \_<TIPO>
+ | | |    \_<IDENTIFICADOR>
+ | | |      \_boolean
+ | | |\_;
+ | | |\_<DECLARACAO_VARIAVEIS>
+ | | | |\_<LISTA_IDENTIFICADORES>
+ | | | |  \_<IDENTIFICADOR>
+ | | | |    \_k
+ | | | |\_:
+ | | |  \_<TIPO>
+ | | |    \_<IDENTIFICADOR>
+ | | |      \_integer
+ | | |\_;
+ | | |\_<DECLARACAO_VARIAVEIS>
+ | | | |\_<LISTA_IDENTIFICADORES>
+ | | | |  \_<IDENTIFICADOR>
+ | | | |    \_L
+ | | | |\_:
+ | | |  \_<TIPO>
+ | | |    \_<IDENTIFICADOR>
+ | | |      \_boolean
+ | |  \_;
+ |  \_<COMANDO_COMPOSTO>
+ |   |\_begin
+ |   |\_<COMANDO>
+ |   |  \_<COMANDO_SEM_ROTULO>
+ |   |    \_<ATRIBUICAO>
+ |   |     |\_<VARIAVEL>
+ |   |     |  \_<IDENTIFICADOR>
+ |   |     |    \_a
+ |   |     |\_:=
+ |   |      \_<EXPRESSAO>
+ |   |        \_<EXPRESSAO_SIMPLES>
+ |   |          \_<TERMO>
+ |   |            \_<FATOR>
+ |   |              \_<NUMERO>
+ |   |                \_1
+ |   |\_;
+ |   |\_<COMANDO>
+ |   |  \_<COMANDO_SEM_ROTULO>
+ |   |    \_<ATRIBUICAO>
+ |   |     |\_<VARIAVEL>
+ |   |     |  \_<IDENTIFICADOR>
+ |   |     |    \_b
+ |   |     |\_:=
+ |   |      \_<EXPRESSAO>
+ |   |        \_<EXPRESSAO_SIMPLES>
+ |   |          \_<TERMO>
+ |   |            \_<FATOR>
+ |   |              \_<NUMERO>
+ |   |                \_2
+ |   |\_;
+ |   |\_<COMANDO>
+ |   |  \_<COMANDO_SEM_ROTULO>
+ |   |    \_<ATRIBUICAO>
+ |   |     |\_<VARIAVEL>
+ |   |     |  \_<IDENTIFICADOR>
+ |   |     |    \_L
+ |   |     |\_:=
+ |   |      \_<EXPRESSAO>
+ |   |        \_<EXPRESSAO_SIMPLES>
+ |   |          \_<TERMO>
+ |   |            \_<FATOR>
+ |   |              \_<NUMERO>
+ |   |                \_false
+ |   |\_;
+ |   |\_<COMANDO>
+ |   |  \_<COMANDO_SEM_ROTULO>
+ |   |    \_<ATRIBUICAO>
+ |   |     |\_<VARIAVEL>
+ |   |     |  \_<IDENTIFICADOR>
+ |   |     |    \_i
+ |   |     |\_:=
+ |   |      \_<EXPRESSAO>
+ |   |        \_<EXPRESSAO_SIMPLES>
+ |   |          \_<TERMO>
+ |   |            \_<FATOR>
+ |   |              \_<NUMERO>
+ |   |                \_false
+ |   |\_;
+ |   |\_<COMANDO>
+ |   |  \_<COMANDO_SEM_ROTULO>
+ |   |    \_<ATRIBUICAO>
+ |   |     |\_<VARIAVEL>
+ |   |     |  \_<IDENTIFICADOR>
+ |   |     |    \_j
+ |   |     |\_:=
+ |   |      \_<EXPRESSAO>
+ |   |        \_<EXPRESSAO_SIMPLES>
+ |   |          \_<TERMO>
+ |   |            \_<FATOR>
+ |   |              \_<NUMERO>
+ |   |                \_true
+ |   |\_;
+ |   |\_<COMANDO>
+ |   |  \_<COMANDO_SEM_ROTULO>
+ |    \_end
+  \_.
+
+*****************
+** Tabela Hash **
+*****************
+
+< VARIAVEL >
+Identificador: L
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: boolean
+Deslocamento: 0
+< /VARIAVEL >
+
+< VARIAVEL >
+Identificador: a
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: integer
+Deslocamento: 0
+< /VARIAVEL >
+
+< VARIAVEL >
+Identificador: b
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: integer
+Deslocamento: 1
+< /VARIAVEL >
+
+< VARIAVEL >
+Identificador: c
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: integer
+Deslocamento: 2
+< /VARIAVEL >
+
+< VARIAVEL >
+Identificador: d
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: boolean
+Deslocamento: 0
+< /VARIAVEL >
+
+< VARIAVEL >
+Identificador: e
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: boolean
+Deslocamento: 1
+< /VARIAVEL >
+
+< VARIAVEL >
+Identificador: f
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: boolean
+Deslocamento: 2
+< /VARIAVEL >
+
+< VARIAVEL >
+Identificador: g
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: integer
+Deslocamento: 0
+< /VARIAVEL >
+
+< VARIAVEL >
+Identificador: h
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: integer
+Deslocamento: 1
+< /VARIAVEL >
+
+< VARIAVEL >
+Identificador: i
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: boolean
+Deslocamento: 0
+< /VARIAVEL >
+
+< VARIAVEL >
+Identificador: j
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: boolean
+Deslocamento: 1
+< /VARIAVEL >
+
+< VARIAVEL >
+Identificador: k
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: integer
+Deslocamento: 0
+< /VARIAVEL >
+
+\_<PROGRAMA>
+ |\_program
+ |\_<IDENTIFICADOR>
+ |  \_tc02
+ |\_(
+ |\_)
+ |\_;
+ |\_<BLOCO>
+ | |\_<PARTE_DECLARACOES_VARIAVEIS>
+ | | |\_var
+ | | |\_<DECLARACAO_VARIAVEIS>
+ | | | |\_<LISTA_IDENTIFICADORES>
+ | | | | |\_<IDENTIFICADOR>
+ | | | | |  \_a
+ | | | | |\_,
+ | | | | |\_<IDENTIFICADOR>
+ | | | | |  \_b
+ | | | | |\_,
+ | | | |  \_<IDENTIFICADOR>
+ | | | |    \_c
+ | | | |\_:
+ | | |  \_<TIPO>
+ | | |    \_<IDENTIFICADOR>
+ | | |      \_integer
+ | | |\_;
+ | | |\_<DECLARACAO_VARIAVEIS>
+ | | | |\_<LISTA_IDENTIFICADORES>
+ | | | | |\_<IDENTIFICADOR>
+ | | | | |  \_d
+ | | | | |\_,
+ | | | | |\_<IDENTIFICADOR>
+ | | | | |  \_e
+ | | | | |\_,
+ | | | |  \_<IDENTIFICADOR>
+ | | | |    \_f
+ | | | |\_:
+ | | |  \_<TIPO>
+ | | |    \_<IDENTIFICADOR>
+ | | |      \_boolean
+ | | |\_;
+ | | |\_<DECLARACAO_VARIAVEIS>
+ | | | |\_<LISTA_IDENTIFICADORES>
+ | | | | |\_<IDENTIFICADOR>
+ | | | | |  \_g
+ | | | | |\_,
+ | | | |  \_<IDENTIFICADOR>
+ | | | |    \_h
+ | | | |\_:
+ | | |  \_<TIPO>
+ | | |    \_<IDENTIFICADOR>
+ | | |      \_integer
+ | | |\_;
+ | | |\_<DECLARACAO_VARIAVEIS>
+ | | | |\_<LISTA_IDENTIFICADORES>
+ | | | | |\_<IDENTIFICADOR>
+ | | | | |  \_i
+ | | | | |\_,
+ | | | |  \_<IDENTIFICADOR>
+ | | | |    \_j
+ | | | |\_:
+ | | |  \_<TIPO>
+ | | |    \_<IDENTIFICADOR>
+ | | |      \_boolean
+ | | |\_;
+ | | |\_<DECLARACAO_VARIAVEIS>
+ | | | |\_<LISTA_IDENTIFICADORES>
+ | | | |  \_<IDENTIFICADOR>
+ | | | |    \_k
+ | | | |\_:
+ | | |  \_<TIPO>
+ | | |    \_<IDENTIFICADOR>
+ | | |      \_integer
+ | | |\_;
+ | | |\_<DECLARACAO_VARIAVEIS>
+ | | | |\_<LISTA_IDENTIFICADORES>
+ | | | |  \_<IDENTIFICADOR>
+ | | | |    \_L
+ | | | |\_:
+ | | |  \_<TIPO>
+ | | |    \_<IDENTIFICADOR>
+ | | |      \_boolean
+ | |  \_;
+ |  \_<COMANDO_COMPOSTO>
+ |   |\_begin
+ |   |\_<COMANDO>
+ |   |  \_<COMANDO_SEM_ROTULO>
+ |   |    \_<ATRIBUICAO>
+ |   |     |\_<VARIAVEL>
+ |   |     |  \_<IDENTIFICADOR>
+ |   |     |    \_a
+ |   |     |\_:=
+ |   |      \_<EXPRESSAO>
+ |   |        \_<EXPRESSAO_SIMPLES>
+ |   |         |\_-
+ |   |          \_<TERMO>
+ |   |            \_<FATOR>
+ |   |              \_<NUMERO>
+ |   |                \_1
+ |   |\_;
+ |   |\_<COMANDO>
+ |   |  \_<COMANDO_SEM_ROTULO>
+ |   |    \_<ATRIBUICAO>
+ |   |     |\_<VARIAVEL>
+ |   |     |  \_<IDENTIFICADOR>
+ |   |     |    \_b
+ |   |     |\_:=
+ |   |      \_<EXPRESSAO>
+ |   |        \_<EXPRESSAO_SIMPLES>
+ |   |         |\_<TERMO>
+ |   |         |  \_<FATOR>
+ |   |         |    \_<NUMERO>
+ |   |         |      \_2
+ |   |         |\_-
+ |   |          \_<TERMO>
+ |   |            \_<FATOR>
+ |   |              \_<NUMERO>
+ |   |                \_3
+ |   |\_;
+ |   |\_<COMANDO>
+ |   |  \_<COMANDO_SEM_ROTULO>
+ |   |    \_<ATRIBUICAO>
+ |   |     |\_<VARIAVEL>
+ |   |     |  \_<IDENTIFICADOR>
+ |   |     |    \_L
+ |   |     |\_:=
+ |   |      \_<EXPRESSAO>
+ |   |        \_<EXPRESSAO_SIMPLES>
+ |   |          \_<TERMO>
+ |   |           |\_<FATOR>
+ |   |           |  \_<NUMERO>
+ |   |           |    \_false
+ |   |           |\_and
+ |   |            \_<FATOR>
+ |   |              \_<NUMERO>
+ |   |                \_true
+ |   |\_;
+ |   |\_<COMANDO>
+ |   |  \_<COMANDO_SEM_ROTULO>
+ |   |    \_<ATRIBUICAO>
+ |   |     |\_<VARIAVEL>
+ |   |     |  \_<IDENTIFICADOR>
+ |   |     |    \_i
+ |   |     |\_:=
+ |   |      \_<EXPRESSAO>
+ |   |        \_<EXPRESSAO_SIMPLES>
+ |   |         |\_<TERMO>
+ |   |         |  \_<FATOR>
+ |   |         |    \_<NUMERO>
+ |   |         |      \_false
+ |   |         |\_or
+ |   |          \_<TERMO>
+ |   |            \_<FATOR>
+ |   |              \_<NUMERO>
+ |   |                \_true
+ |   |\_;
+ |   |\_<COMANDO>
+ |   |  \_<COMANDO_SEM_ROTULO>
+ |   |    \_<ATRIBUICAO>
+ |   |     |\_<VARIAVEL>
+ |   |     |  \_<IDENTIFICADOR>
+ |   |     |    \_j
+ |   |     |\_:=
+ |   |      \_<EXPRESSAO>
+ |   |        \_<EXPRESSAO_SIMPLES>
+ |   |          \_<TERMO>
+ |   |            \_<FATOR>
+ |   |              \_<NUMERO>
+ |   |                \_true
+ |   |\_;
+ |   |\_<COMANDO>
+ |   |  \_<COMANDO_SEM_ROTULO>
+ |   |    \_<ATRIBUICAO>
+ |   |     |\_<VARIAVEL>
+ |   |     |  \_<IDENTIFICADOR>
+ |   |     |    \_k
+ |   |     |\_:=
+ |   |      \_<EXPRESSAO>
+ |   |        \_<EXPRESSAO_SIMPLES>
+ |   |          \_<TERMO>
+ |   |           |\_<FATOR>
+ |   |           |  \_<VARIAVEL>
+ |   |           |    \_<IDENTIFICADOR>
+ |   |           |      \_a
+ |   |           |\_*
+ |   |            \_<FATOR>
+ |   |             |\_(
+ |   |             |\_<EXPRESSAO>
+ |   |             |  \_<EXPRESSAO_SIMPLES>
+ |   |             |   |\_<TERMO>
+ |   |             |   |  \_<FATOR>
+ |   |             |   |    \_<VARIAVEL>
+ |   |             |   |      \_<IDENTIFICADOR>
+ |   |             |   |        \_b
+ |   |             |   |\_+
+ |   |             |    \_<TERMO>
+ |   |             |      \_<FATOR>
+ |   |             |       |\_(
+ |   |             |       |\_<EXPRESSAO>
+ |   |             |       |  \_<EXPRESSAO_SIMPLES>
+ |   |             |       |   |\_-
+ |   |             |       |    \_<TERMO>
+ |   |             |       |      \_<FATOR>
+ |   |             |       |        \_<VARIAVEL>
+ |   |             |       |          \_<IDENTIFICADOR>
+ |   |             |       |            \_c
+ |   |             |        \_)
+ |   |              \_)
+ |   |\_;
+ |   |\_<COMANDO>
+ |   |  \_<COMANDO_SEM_ROTULO>
+ |    \_end
+  \_.
+
+*****************
+** Tabela Hash **
+*****************
+
+< VARIAVEL >
+Identificador: a
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: integer
+Deslocamento: 0
+< /VARIAVEL >
+
+
+*****************
+** Tabela Hash **
+*****************
+
+< VARIAVEL >
+Identificador: a
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: integer
+Deslocamento: 0
+< /VARIAVEL >
+
+
+*****************
+** Tabela Hash **
+*****************
+
+< VARIAVEL >
+Identificador: a
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: integer
+Deslocamento: 0
+< /VARIAVEL >
+
+
+*****************
+** Tabela Hash **
+*****************
+
+< VARIAVEL >
+Identificador: a
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: integer
+Deslocamento: 0
+< /VARIAVEL >
+
+
+*****************
+** Tabela Hash **
+*****************
+
+< VARIAVEL >
+Identificador: a
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: integer
+Deslocamento: 0
+< /VARIAVEL >
+
+
+*****************
+** Tabela Hash **
+*****************
+
+< VARIAVEL >
+Identificador: a
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: integer
+Deslocamento: 0
+< /VARIAVEL >
+
+
+*****************
+** Tabela Hash **
+*****************
+
+< VARIAVEL >
+Identificador: a
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: integer
+Deslocamento: 0
+< /VARIAVEL >
+
+
+*****************
+** Tabela Hash **
+*****************
+
+< VARIAVEL >
+Identificador: a
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: integer
+Deslocamento: 0
+< /VARIAVEL >
+
+
+*****************
+** Tabela Hash **
+*****************
+
+< VARIAVEL >
+Identificador: a
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: integer
+Deslocamento: 0
+< /VARIAVEL >
+
+
+*****************
+** Tabela Hash **
+*****************
+
+< VARIAVEL >
+Identificador: a
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: integer
+Deslocamento: 0
+< /VARIAVEL >
+
+
+*****************
+** Tabela Hash **
+*****************
+
+< VARIAVEL >
+Identificador: a
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: integer
+Deslocamento: 0
+< /VARIAVEL >
+
+
+*****************
+** Tabela Hash **
+*****************
+
+< VARIAVEL >
+Identificador: a
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: integer
+Deslocamento: 0
+< /VARIAVEL >
+
+
+*****************
+** Tabela Hash **
+*****************
+
+< VARIAVEL >
+Identificador: L
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: boolean
+Deslocamento: 0
+< /VARIAVEL >
+
+< VARIAVEL >
+Identificador: a
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: integer
+Deslocamento: 0
+< /VARIAVEL >
+
+< VARIAVEL >
+Identificador: b
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: integer
+Deslocamento: 1
+< /VARIAVEL >
+
+< VARIAVEL >
+Identificador: c
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: integer
+Deslocamento: 2
+< /VARIAVEL >
+
+< VARIAVEL >
+Identificador: d
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: boolean
+Deslocamento: 0
+< /VARIAVEL >
+
+< VARIAVEL >
+Identificador: e
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: boolean
+Deslocamento: 1
+< /VARIAVEL >
+
+< VARIAVEL >
+Identificador: f
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: boolean
+Deslocamento: 2
+< /VARIAVEL >
+
+< VARIAVEL >
+Identificador: g
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: integer
+Deslocamento: 0
+< /VARIAVEL >
+
+< VARIAVEL >
+Identificador: h
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: integer
+Deslocamento: 1
+< /VARIAVEL >
+
+< VARIAVEL >
+Identificador: i
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: boolean
+Deslocamento: 0
+< /VARIAVEL >
+
+< VARIAVEL >
+Identificador: j
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: boolean
+Deslocamento: 1
+< /VARIAVEL >
+
+< VARIAVEL >
+Identificador: k
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: integer
+Deslocamento: 0
+< /VARIAVEL >
+
+
+*****************
+** Tabela Hash **
+*****************
+
+< VARIAVEL >
+Identificador: L
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: boolean
+Deslocamento: 0
+< /VARIAVEL >
+
+< VARIAVEL >
+Identificador: a
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: integer
+Deslocamento: 0
+< /VARIAVEL >
+
+< VARIAVEL >
+Identificador: b
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: integer
+Deslocamento: 1
+< /VARIAVEL >
+
+< VARIAVEL >
+Identificador: c
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: integer
+Deslocamento: 2
+< /VARIAVEL >
+
+< VARIAVEL >
+Identificador: d
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: boolean
+Deslocamento: 0
+< /VARIAVEL >
+
+< VARIAVEL >
+Identificador: e
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: boolean
+Deslocamento: 1
+< /VARIAVEL >
+
+< VARIAVEL >
+Identificador: f
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: boolean
+Deslocamento: 2
+< /VARIAVEL >
+
+< VARIAVEL >
+Identificador: g
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: integer
+Deslocamento: 0
+< /VARIAVEL >
+
+< VARIAVEL >
+Identificador: h
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: integer
+Deslocamento: 1
+< /VARIAVEL >
+
+< VARIAVEL >
+Identificador: i
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: boolean
+Deslocamento: 0
+< /VARIAVEL >
+
+< VARIAVEL >
+Identificador: j
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: boolean
+Deslocamento: 1
+< /VARIAVEL >
+
+< VARIAVEL >
+Identificador: k
+Categoria: VARIAVEL_SIMPLES
+Nivel Lexico: 0
+Tipo: integer
+Deslocamento: 0
+< /VARIAVEL >
+
+
+*****************
+** Tabela Hash **
+*****************
+
+
+*****************
+** Tabela Hash **
+*****************
+
+
+*****************
+** Tabela Hash **
+*****************
+
+
+*****************
+** Tabela Hash **
+*****************
+
+
+*****************
+** Tabela Hash **
+*****************
+
+
+*****************
+** Tabela Hash **
+*****************
+
+
+*****************
+** Tabela Hash **
+*****************
+
+
+*****************
+** Tabela Hash **
+*****************
+
+
+*****************
+** Tabela Hash **
+*****************
+
+
+*****************
+** Tabela Hash **
+*****************
+
+
+*****************
+** Tabela Hash **
+*****************
+
+
+*****************
+** Tabela Hash **
+*****************
+
+
+*****************
+** Tabela Hash **
+*****************
+
+
+*****************
+** Tabela Hash **
+*****************
+
+
+*****************
+** Tabela Hash **
+*****************
+
+
+*****************
+** Tabela Hash **
+*****************
+
+
+*****************
+** Tabela Hash **
+*****************
+
+
+*****************
+** Tabela Hash **
+*****************
+
+
+*****************
+** Tabela Hash **
+*****************
+
+
+*****************
+** Tabela Hash **
+*****************
+
+
+*****************
+** Tabela Hash **
+*****************
+
+
+*****************
+** Tabela Hash **
+*****************
+
+
+*****************
+** Tabela Hash **
+*****************
+
+
+*****************
+** Tabela Hash **
+*****************
+
+
+*****************
+** Tabela Hash **
+*****************
+
+
+*****************
+** Tabela Hash **
+*****************
+
+
+*****************
+** Tabela Hash **
+*****************
+
+
+*****************
+** Tabela Hash **
+*****************
+
+
+*****************
+** Tabela Hash **
+*****************
+

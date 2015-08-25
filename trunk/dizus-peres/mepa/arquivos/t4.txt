@@ -1,0 +1,74 @@
+program Exemplo;
+  var a,b: integer
+  procedure P; (*L2*)
+    var c,d: integer
+    procedure Q;
+      var a,e: integer;
+    begin   (* Q-L5 *)
+      Read(a);
+      Write(a+1);
+    end;   (* Q *)
+  begin   (* P – L3*)
+    a := a + 1;
+    b := b – 1;
+  end;   (* P *)
+  procedure R;
+    var x: integer;
+  begin  (* R *)
+    P;
+  end;   (* R *)
+begin  (*Principal–L1*)
+  Read(a);
+  b := a;
+  P;
+  R;
+  Write(a);
+  Write(b);
+end.  (* Principal *)
+
+INPP											main
+AMEM 2		# variáveis a e b				main
+DSVS L1		# p/ corpo programa principal	main
+L2	NADA			# entrada de P				P
+		ENPR 1									P
+		AMEM 2		# variáveis c e d			P
+		DSVS L3		# p/ corpo de P				P
+		L4	NADA			# entrada de Q			Q
+			ENPR 2								Q
+			AMEM 2		# variáveis a e e		Q
+			DSVS L5		# p/ corpo de Q			Q
+		L5 NADA									Q
+			LEIT			# read a					Q
+			ARMZ 2,0								Q
+			CRVL 2,0		# write(a+1)				Q
+			CRCT 1									Q
+			SOMA									Q
+			IMPR									Q
+			DMEM 2		# desaloca vars locais	Q
+			RTPR 2								Q
+L3	NADA			# corpo de P				P
+	CRVL 0,0		# a:= a+1					P
+	CRCT 1										P
+	SOMA										P
+	ARMZ 0,0									P
+		(* ... *)										P
+		DMEM 2		# desaloca vars locais		P
+		RTPR 1		# retorna procedimento		P
+L6	NADA			# entrada de R				R
+		ENPR 1									R
+		AMEM 1		# variável x					R
+		DSVS L7		# p/ corpo de R				R
+L7 NADA			# corpo de R				R
+		CHPR L2		# chama P					R
+		DMEM 1									R
+		RTPR 1									R
+L1 NADA			# corpo prog. Princ			main
+	LEIT			# read(a)					main
+	ARMZ 0,0
+	CRVL	0,0		# b := a						main
+	ARMZ 0,1									main
+	CHPR L2		# chama P					main
+	CHPR L6		# chama R					main
+	(* ... *)										main
+	DMEM 2		# desaloca vars globais		main
+	PARA	
